@@ -168,7 +168,7 @@ def read_words(words_file):
     Precondition: Each line of the file contains a word in uppercase characters
     from the standard English alphabet.
     """
-    
+    mylist = [line.strip() for line in words_file]
 
 
 def read_board(board_file):
